@@ -10,13 +10,13 @@
     <title>Sign-Up Form</title>
 </head>
 <body>
-    <div>
-        <img src="image/halie-west-mountain.jpg" alt="">
+    <div class="left-side">
+        <img src="assests.images/odin-lined.png" alt="">
         <div>
 
         </div>
     </div>
-    <div>
+    <div class="right-side">
         <div>
             <p>
                 This is not a real online service! You know you need something
@@ -26,7 +26,7 @@
             </p>
         </div>
         <div>
-            <form action="#" method="post">
+            <form action="#" method="post" id="signup-form" novalidate>
                 <fieldset>
                     <legend>Let's do this!</legend>
                     <div>
@@ -50,10 +50,12 @@
                         <input type="password" name="confirm_password" id="confirm_password" required>
                     </div>
                 </fieldset>
-                <button></button>
             </form>
         </div>
-        <div></div>
+        <div>
+            <button type="submit" form="signup-form">Create Account</button>
+            <div>Already have an account? <a href="">Log in</a></div>
+        </div>
     </div>
 </body>
 </html>
